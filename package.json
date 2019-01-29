@@ -1,0 +1,22 @@
+{
+  "name": "glowing-octo-engine",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JafirQuiroz/glowing-octo-engine.git"
+  },
+  "author": "Noe Quiroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JafirQuiroz/glowing-octo-engine/issues"
+  },
+  "homepage": "https://github.com/JafirQuiroz/glowing-octo-engine#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

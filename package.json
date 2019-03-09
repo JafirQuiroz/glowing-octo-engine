@@ -1,16 +1,17 @@
 {
   "name": "glowing-octo-engine",
   "version": "1.0.0",
-  "description": "Testing",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./server.js"
+    "build": "webpack -p",
+    "dev": "webpack-dev-server -d"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JafirQuiroz/glowing-octo-engine.git"
   },
+  "keywords": [],
   "author": "Noe Quiroz",
   "license": "ISC",
   "bugs": {
@@ -18,9 +19,11 @@
   },
   "homepage": "https://github.com/JafirQuiroz/glowing-octo-engine#readme",
   "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   }
 }

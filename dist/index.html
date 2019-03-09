@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 id="weather-location"></h1>
+                    </div>
+                    <div class="card-content">
+                            <h3 id="weather-description"></h3>
+                            <h3 id="weather-string"></h3>
+                            <ul class="list-group">
+                                <li id="weather-humidity"></li>
+                                <li id="weather-wind"></li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <form action="#" id="weather-form">
+                            <div class="field">
+                                <div class="control">
+                                        <input type="text" id="city" placeholder="City" autofocus class="input">
+                                </div>
+                            </div>
+                            
+                            <div class="control">
+                                <button class="button is-primary" id="weather-btn">Submit</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
